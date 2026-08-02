@@ -1,0 +1,26 @@
+/*
+ * registers.h: Register definitions for the AS7341 sensor.
+ *
+ * Tom Clayton 2026
+ */
+#ifndef LSM6DS_REGISTERS_H
+#define LSM6DS_REGISTERS_H
+
+#define LSM6DS_ID_REG	0x0F
+#define LSM6DS_CTRL1_XL_REG 0x10
+#define LSM6DS_CTRL6_C_REG 0x15
+#define LSM6DS_DRDY_PULSE_CFG_REG 0x1B
+#define LSM6DS_TAP_SRC_REG 0x1B
+#define LSM6DS_STATUS_REG 0x1E
+#define LSM6DS_CTRL8_XL_REG 0x22
+#define LSM6DS_CTRL4_C_REG 0x23
+#define LSM6DS_TAP_CFG_REG 0x58
+#define LSM6DS_TAP_THS_6D_REG 0x59
+#define LSM6DS_INT_DUR2_REG 0x5A
+#define LSM6DS_WAKE_UP_THS_REG 0x5B
+#define LSM6DS_MD1_CFG_REG 0x5E
+#define LSM6DS_CTRL10_C_REG 0x60
+
+#define LSM6DS_CHIP_ID	0x6A
+
+#endif // LSM6DS_REGISTERS_H

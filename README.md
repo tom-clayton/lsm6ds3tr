@@ -24,8 +24,3 @@ void lsm6ds_setup_6D();
 
 Detected gestures will create an interrupt on int1.
 
-## Todo
-
-Recognise multiple simultaneous gestures.<br>
-More gesture types.<br>
-Supply accelerometer data.<br>

@@ -1,3 +1,4 @@
 [submodule "i2c-wrapper"]
 	path = i2c-wrapper
 	url = https://github.com/tom-clayton/i2c-wrapper.git
+	branch = main
